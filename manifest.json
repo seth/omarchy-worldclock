@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "seth.worldclock",
+  "name": "World clock",
+  "version": "1.0.0",
+  "author": "seth",
+  "description": "World clocks with a time-shift slider for timezone math",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "World clock",
+    "description": "World clocks with a time-shift slider for timezone math",
+    "category": "Time",
+    "allowMultiple": false,
+    "defaultSection": "center"
+  }
+}
